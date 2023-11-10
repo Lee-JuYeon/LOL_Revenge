@@ -74,6 +74,14 @@
 		7EBF6A962AFDEACC00530D49 /* AppleLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF6A942AFDEACC00530D49 /* AppleLoginButton.swift */; };
 		7EBF6A972AFDEACC00530D49 /* AppleLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF6A942AFDEACC00530D49 /* AppleLoginButton.swift */; };
 		7EBF6A982AFDEACC00530D49 /* AppleLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF6A942AFDEACC00530D49 /* AppleLoginButton.swift */; };
+		7EBF6A9A2AFE816F00530D49 /* ExtensionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF6A992AFE816F00530D49 /* ExtensionColor.swift */; };
+		7EBF6A9B2AFE816F00530D49 /* ExtensionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF6A992AFE816F00530D49 /* ExtensionColor.swift */; };
+		7EBF6A9C2AFE816F00530D49 /* ExtensionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF6A992AFE816F00530D49 /* ExtensionColor.swift */; };
+		7EBF6A9D2AFE816F00530D49 /* ExtensionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF6A992AFE816F00530D49 /* ExtensionColor.swift */; };
+		7EBF6A9F2AFE819500530D49 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF6A9E2AFE819500530D49 /* Theme.swift */; };
+		7EBF6AA02AFE819500530D49 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF6A9E2AFE819500530D49 /* Theme.swift */; };
+		7EBF6AA12AFE819500530D49 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF6A9E2AFE819500530D49 /* Theme.swift */; };
+		7EBF6AA22AFE819500530D49 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF6A9E2AFE819500530D49 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +128,8 @@
 		7EBF6A892AFD02C400530D49 /* RecentHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentHistory.swift; sourceTree = "<group>"; };
 		7EBF6A8F2AFDEABE00530D49 /* GoogleLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginButton.swift; sourceTree = "<group>"; };
 		7EBF6A942AFDEACC00530D49 /* AppleLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginButton.swift; sourceTree = "<group>"; };
+		7EBF6A992AFE816F00530D49 /* ExtensionColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionColor.swift; sourceTree = "<group>"; };
+		7EBF6A9E2AFE819500530D49 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +296,8 @@
 			isa = PBXGroup;
 			children = (
 				7EBF6A4A2AFC113300530D49 /* ExtensionString.swift */,
+				7EBF6A992AFE816F00530D49 /* ExtensionColor.swift */,
+				7EBF6A9E2AFE819500530D49 /* Theme.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -547,10 +559,12 @@
 				7EBF6A8A2AFD02C400530D49 /* RecentHistory.swift in Sources */,
 				7EBF6A7A2AFCDC9E00530D49 /* SplashView.swift in Sources */,
 				7EBF6A6F2AFCD73800530D49 /* MyModel.swift in Sources */,
+				7EBF6A9A2AFE816F00530D49 /* ExtensionColor.swift in Sources */,
 				7EBF6A452AFBEC8500530D49 /* FirebaseVM.swift in Sources */,
 				7EBF6A632AFCD6DC00530D49 /* MainView.swift in Sources */,
 				7EBF6A552AFCD46A00530D49 /* VillainCell.swift in Sources */,
 				7EBF6A5B2AFCD5FD00530D49 /* VillainList.swift in Sources */,
+				7EBF6A9F2AFE819500530D49 /* Theme.swift in Sources */,
 				7EBF6A952AFDEACC00530D49 /* AppleLoginButton.swift in Sources */,
 				7EBF6A7F2AFCE3DE00530D49 /* LoginRegisterView.swift in Sources */,
 				7EBF6A6A2AFCD72B00530D49 /* VillainModel.swift in Sources */,
@@ -570,10 +584,12 @@
 				7EBF6A8B2AFD02C400530D49 /* RecentHistory.swift in Sources */,
 				7EBF6A7B2AFCDC9E00530D49 /* SplashView.swift in Sources */,
 				7EBF6A702AFCD73800530D49 /* MyModel.swift in Sources */,
+				7EBF6A9B2AFE816F00530D49 /* ExtensionColor.swift in Sources */,
 				7EBF6A462AFBEC8500530D49 /* FirebaseVM.swift in Sources */,
 				7EBF6A642AFCD6DC00530D49 /* MainView.swift in Sources */,
 				7EBF6A562AFCD46A00530D49 /* VillainCell.swift in Sources */,
 				7EBF6A5C2AFCD5FD00530D49 /* VillainList.swift in Sources */,
+				7EBF6AA02AFE819500530D49 /* Theme.swift in Sources */,
 				7EBF6A962AFDEACC00530D49 /* AppleLoginButton.swift in Sources */,
 				7EBF6A802AFCE3DE00530D49 /* LoginRegisterView.swift in Sources */,
 				7EBF6A6B2AFCD72B00530D49 /* VillainModel.swift in Sources */,
@@ -593,10 +609,12 @@
 				7EBF6A8C2AFD02C400530D49 /* RecentHistory.swift in Sources */,
 				7EBF6A7C2AFCDC9E00530D49 /* SplashView.swift in Sources */,
 				7EBF6A712AFCD73800530D49 /* MyModel.swift in Sources */,
+				7EBF6A9C2AFE816F00530D49 /* ExtensionColor.swift in Sources */,
 				7EBF6A472AFBEC8500530D49 /* FirebaseVM.swift in Sources */,
 				7EBF6A652AFCD6DC00530D49 /* MainView.swift in Sources */,
 				7EBF6A572AFCD46A00530D49 /* VillainCell.swift in Sources */,
 				7EBF6A5D2AFCD5FD00530D49 /* VillainList.swift in Sources */,
+				7EBF6AA12AFE819500530D49 /* Theme.swift in Sources */,
 				7EBF6A972AFDEACC00530D49 /* AppleLoginButton.swift in Sources */,
 				7EBF6A812AFCE3DE00530D49 /* LoginRegisterView.swift in Sources */,
 				7EBF6A6C2AFCD72B00530D49 /* VillainModel.swift in Sources */,
@@ -616,10 +634,12 @@
 				7EBF6A8D2AFD02C400530D49 /* RecentHistory.swift in Sources */,
 				7EBF6A7D2AFCDC9E00530D49 /* SplashView.swift in Sources */,
 				7EBF6A722AFCD73800530D49 /* MyModel.swift in Sources */,
+				7EBF6A9D2AFE816F00530D49 /* ExtensionColor.swift in Sources */,
 				7EBF6A482AFBEC8500530D49 /* FirebaseVM.swift in Sources */,
 				7EBF6A662AFCD6DC00530D49 /* MainView.swift in Sources */,
 				7EBF6A582AFCD46A00530D49 /* VillainCell.swift in Sources */,
 				7EBF6A5E2AFCD5FD00530D49 /* VillainList.swift in Sources */,
+				7EBF6AA22AFE819500530D49 /* Theme.swift in Sources */,
 				7EBF6A982AFDEACC00530D49 /* AppleLoginButton.swift in Sources */,
 				7EBF6A822AFCE3DE00530D49 /* LoginRegisterView.swift in Sources */,
 				7EBF6A6D2AFCD72B00530D49 /* VillainModel.swift in Sources */,
