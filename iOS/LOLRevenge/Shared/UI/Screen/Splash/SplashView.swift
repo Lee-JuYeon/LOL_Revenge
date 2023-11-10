@@ -11,6 +11,9 @@ struct SplashView : View {
     
     private var isUserAuthenticated = false
     var body : some View {
+        VStack{
+            
+        }
         NavigationView{
             switch(isUserAuthenticated){
             case true :
