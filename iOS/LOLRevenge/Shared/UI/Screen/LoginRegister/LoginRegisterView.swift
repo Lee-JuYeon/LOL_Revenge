@@ -9,6 +9,12 @@ import SwiftUI
 
 struct LoginRegisterView : View {
     var body : some View {
-        Text("LoginRegisterView")
+        VStack(
+            alignment: HorizontalAlignment.center,
+            spacing: 0
+        ){
+            GoogleLoginButton()
+            AppleLoginButton()
+        }
     }
 }

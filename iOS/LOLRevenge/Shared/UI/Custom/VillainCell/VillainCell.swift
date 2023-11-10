@@ -14,11 +14,13 @@ struct VillainCell : View {
         self.model = setModel
     }
     var body : some View {
-        VStack{
+        VStack(
+            alignment: HorizontalAlignment.leading,
+            spacing: 0
+        ){
             Text("😈 \(model.oldName)(\(model.currentName)")
                 .font(.largeTitle) // 글꼴 크기를 크게 설정
                 .fontWeight(.bold)  // 글꼴 두껍게 설정
-                .frame(width: 200, height: 100) // 크기 설정
                 .multilineTextAlignment(.leading) // 텍스트 정렬 설정 (앞으로 정렬)
                 .background(Color.yellow) // 배경색 설정
                 .foregroundColor(Color.blue) // 텍스트 색상 설정
@@ -27,7 +29,6 @@ struct VillainCell : View {
                 .font(.title3) // 글꼴 크기를 크게 설정
                 .fontWeight(.semibold)  // 글꼴 두껍게 설정
                 .multilineTextAlignment(.leading) // 텍스트 정렬 설정 (앞으로 정렬)
-                .background(Color.yellow) // 배경색 설정
                 .foregroundColor(Color.blue) // 텍스트 색상 설정
             
             List{
