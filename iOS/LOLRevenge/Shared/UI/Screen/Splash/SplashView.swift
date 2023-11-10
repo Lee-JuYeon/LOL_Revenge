@@ -8,7 +8,16 @@
 import SwiftUI
 
 struct SplashView : View {
+    
+    private var isUserAuthenticated = false
     var body : some View {
-        Text("splash view")
+        NavigationView{
+            switch(isUserAuthenticated){
+            case true :
+                MainView()
+            default :
+                LoginRegisterView()
+            }
+        }
     }
 }
